@@ -7,7 +7,7 @@ function showTime(){
     month = monList[month];
     var year = time.getFullYear();
     var day = time.getDay();
-    var dayList =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"]; 
+    var dayList =["Sun","Mon","Tues","Wednes","Thurs","Fri","Satur"]; 
     day = dayList[day];
     day = checkTime(day);
 
