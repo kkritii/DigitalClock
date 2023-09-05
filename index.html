@@ -1,20 +1,31 @@
 <html>
-    <head>
-        <title>Digital Clock</title>
-        <link rel="stylesheet" type="text/css" href="style.css">  
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    </head>
+  <head>
+    <title>Botsplash Clock</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  </head>
 
-    <body>
-        <div id="container">
-            <h1><b>Digital Clock</b></h1>
-            <div id="date"></div>
-        <div id = "clock" class = "clock_outlook"></div>
-        <hr>
-        <div id="footer">Kriti  &copy;  2020</div>
-        <script src="script.js"></script>
-
+  <body>
+    <div id="container">
+      <p class="header"><b>Botsplash Clock</b></p>
+      <div class="flex-clock">
+        <div class="flex-date-time">
+          <h1>Nepal Time</h1>
+          <div id="nepalDate" class="date"></div>
+          <div id="nepalClock" class="clock_outlook clock"></div>
         </div>
-        
-    </body>
+        <div class="vertical"></div>
+        <div class="flex-date-time">
+          <h1>US Time</h1>
+          <div id="edtDate" class="date"></div>
+          <div id="edtClock" class="clock_outlook clock"></div>
+        </div>
+
+      </div>
+      <hr>
+      <div id="footer">Kriti &copy; 2020</div>
+      <script src="script.js"></script>
+    </div>
+      
+  </body>
 </html>
